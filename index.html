@@ -4,13 +4,24 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #001f3f, #000000); /* Dark blue to black */
+      background: linear-gradient(to bottom, #001f3f, #000000);
       text-align: center;
       padding: 40px;
-      color: #ffffff; /* Optional: makes text readable on dark background */
+      color: #ffffff;
     }
     h1 {
       color: #ffffff;
+    }
+    .author-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .author-section img {
+      width: 100px;
+      height: auto;
     }
     .game-list {
       margin-top: 30px;
@@ -22,13 +33,15 @@
       border: none;
       width: 800px;
       height: 500px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
   </style>
 </head>
 <body>
   <h1>Free School Math Games</h1>
-  <p>By gollclock/guuleed</p>
+  <div class="author-section">
+    <p>By gollclock/guuleed</p>
+    <img src="https://tr.rbxcdn.com/180DAY-26fe0fc5e8d0a5e3f9c9d5121be0a19a/420/420/Image/Webp/noFilter" alt="Author Image">
+  </div>
   <div class="game-list">
     <div class="game">
       <h2>The Gold Miner</h2>
@@ -41,16 +54,20 @@
     <div class="game">
       <h2>Basket Random</h2>
       <iframe src="https://ezclasswork.com/science/basket-random/" allowfullscreen=""></iframe>
-    </div><div class="game">
+    </div>
+    <div class="game">
       <h2>Boxing Random</h2>
       <iframe src="https://ezclasswork.com/science/boxing-random/" allowfullscreen=""></iframe>
-    </div><div class="game">
+    </div>
+    <div class="game">
       <h2>Volley Random</h2>
       <iframe src="https://ezclasswork.com/science/volley-random/" allowfullscreen=""></iframe>
-    </div><div class="game">
+    </div>
+    <div class="game">
       <h2>Stickman Hook</h2>
       <iframe src="https://plugplay.games/embed/1c61b71c9b4302faf505bd65ab92291a1ec7655c" allowfullscreen=""></iframe>
-    </div><div class="game">
+    </div>
+    <div class="game">
       <h2>Baldi Basics Remake PC ONLY!</h2>
       <iframe src="https://plugplay.games/embed/9c79ba8f01156e8cf14cbec36163f6e04b7fba91" allowfullscreen=""></iframe>
     </div>
@@ -58,8 +75,6 @@
       <h2>More Coming Soon!</h2>
     </div>
   </div>
-
-
 
 
 </body></html>
