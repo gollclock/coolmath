@@ -1,25 +1,242 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Coolmath new</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free School Math Games</title>
   <style>
-    html, body {
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #001f3f, #000000);
+      text-align: center;
+      padding: 40px;
+      color: #ffffff;
       margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-      background-color: #000;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    .author-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .author-section img {
+      width: 100px;
+      height: auto;
+      border-radius: 50%;
+    }
+    .game-list {
+      margin-top: 30px;
+    }
+    .game {
+      margin: 40px auto;
+      max-width: 820px;
+    }
+    .game-container {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      max-width: 800px;
     }
     iframe {
       border: none;
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 500px;
       display: block;
+    }
+    .fullscreen-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(0, 123, 255, 0.9);
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      z-index: 10;
+      transition: background-color 0.3s;
+    }
+    .fullscreen-btn:hover {
+      background-color: rgba(51, 153, 255, 0.9);
+    }
+    .song-library-btn {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .song-library-btn:hover {
+      background-color: #3399ff;
     }
   </style>
 </head>
 <body>
-  <iframe src="https://edu-gamess.netlify.app/" allowfullscreen></iframe>
+  <h1>Free School Math Games</h1>
+  <div class="author-section">
+    <p>By gollclock/guuleed</p>
+    <img src="https://tr.rbxcdn.com/180DAY-26fe0fc5e8d0a5e3f9c9d5121be0a19a/420/420/Image/Webp/noFilter" alt="Author Image">
+  </div>
+  <div class="game-list">
+    <div class="game">
+      <h2>The Gold Miner</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/bd1d256a73fa33eb0a1f20d347a9aa13cbbd9093"></iframe>
+      </div>
+    </div>
+    
+    <div class="game">
+      <h2>Block Blast</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://same-fm81zve7vi0-latest.netlify.app/"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Bloxorz</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://gollclock.github.io/maths/maths/index.html#"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Basket Random</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/8858d9cf31f8dd0e94fc385cc92dff10f05d6a64"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Cut The Rope (Holiday Gift)</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/505389e7fb4cf73a08021b5db311e6d1804f8f8a"></iframe>
+      </div>
+    </div>
+    
+    <div class="game">
+      <h2>Stickman Hook</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/1c61b71c9b4302faf505bd65ab92291a1ec7655c"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Baldi Basics Remake (PC ONLY!)</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/9c79ba8f01156e8cf14cbec36163f6e04b7fba91"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Subway Surfers</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/a228e05e0afee175ca33adc31f52ef6e04ad83e2"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>HexGL (PRESS CONTROLS TO CHANGE CONTROLS)</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/cf980f7e2c7f68297ea902d36ad984e4cdfe7802"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Drive Mad</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/73e6c7bc9aa81a4abfd34a0a3df36aaf923a5cf6"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Tiny Fishing</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/07a82656316484493b52e8f31fc2f5a3c987b3e0"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Snow Battle</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/04792e5a4a36d9d79eb2503489b3f4935a3f582e"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Alien Galaxy War</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/c13cd7447b278a4e2a3056aa578d6471662b9e21"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Moto Road Rash 3D (PC ONLY!)</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/e6f25b439e06e4789a3062f1c322bbec3482ede7"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Drift Hunters</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/3339796ef6a704b2b21dd3c07c6cef9b49eb2874"></iframe>
+      </div>
+    </div>
+
+    <div class="game">
+      <h2>Duck Shoot</h2>
+      <div class="game-container">
+        <button class="fullscreen-btn" onclick="fullscreen(this)">⛶ Fullscreen</button>
+        <iframe src="https://plugplay.games/embed/b3eb6586740556aeecb86104d395b102e4dc9199"></iframe>
+      </div>
+    </div>
+
+    <h2>More Coming Soon!</h2>
+    
+    <h2>Song Library</h2>
+    <button class="song-library-btn" onclick="window.open('https://gollclock.github.io/coolmath/edu-songs.html', '_blank')">
+      Go To Song Library
+    </button>
+  </div>
+
+  <button class="song-library-btn" onclick="window.open('https://gollclock.github.io/coolmath/prodclov', '_blank')">
+      Go To Song Library
+    </button>
+  </div>
+
+  <script>
+    function fullscreen(btn) {
+      const iframe = btn.parentElement.querySelector('iframe');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  </script>
 </body>
 </html>
